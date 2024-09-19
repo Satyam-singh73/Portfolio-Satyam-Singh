@@ -4,11 +4,11 @@ import Footer from "./Components/Footer/Footer";
 import Home from "./Components/Home/Home";
 import Navbar from "./Components/Navbar/Navbar"
 import Projects from "./Components/Projects/Projects";
-import Qulifications from "./Components/Qulifications/Qulifications";
 import Skills from "./Components/Skills/Skills";
 import Certificates from "./Components/Certificates/Certificates";
 import BorderLine from "./Components/BorderLine/BorderLine";
 import Links from "./Components/Links/Links";
+import Qulifications from "./Components/Qulifications/Qulifications";
 
 
 

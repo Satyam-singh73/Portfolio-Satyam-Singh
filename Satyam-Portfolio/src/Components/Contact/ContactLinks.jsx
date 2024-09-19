@@ -58,7 +58,7 @@ const ContactLinks = () => {
                     <FaPhoneAlt size={30} /> <span className='ml-5'>7317664974</span>
                 </>
             ),
-            href: 'mailto:satyamsingh50844@gmail.com',
+            href: 'tel:+7317664974',
 
         },
 

@@ -1,9 +1,9 @@
 import React from 'react'
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { FaGithub } from "react-icons/fa";
-import { GoMail } from "react-icons/go";
+
 import { SiLeetcode } from "react-icons/si";
-import { RiContactsLine } from "react-icons/ri";
+
 import { MdEmail } from "react-icons/md";
 
 const Links = () => {

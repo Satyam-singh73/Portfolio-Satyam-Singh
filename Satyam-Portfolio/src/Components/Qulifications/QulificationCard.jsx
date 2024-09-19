@@ -1,6 +1,5 @@
 import React from 'react'
-import ram from "../../assets/ram.jpeg"
-const Qulificationscard1 = ({ title, main, year}) => {
+const QulificationsCard = ({ title, main, year, ram}) => {
   return (
     <div className='p-3 md:p-6 flex flex-col w-80 bg-[#0c0e19] shadow-lg shadow-slate-900 rounded-2xl'>
         <img className='p-4 bg-[#0c0e19]' src={ram} alt="" />
@@ -13,4 +12,4 @@ const Qulificationscard1 = ({ title, main, year}) => {
   )
 }
 
-export default Qulificationscard1
+export default QulificationsCard

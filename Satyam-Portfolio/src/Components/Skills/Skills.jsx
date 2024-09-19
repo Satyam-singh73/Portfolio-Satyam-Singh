@@ -10,6 +10,9 @@ import { FaGitAlt } from "react-icons/fa";
 import { RiCollageFill } from "react-icons/ri";
 import { TbBrandNodejs } from "react-icons/tb";
 import { SiExpress } from "react-icons/si";
+import { SiJavascript } from "react-icons/si";
+import { SiCplusplus } from "react-icons/si";
+
 
 const Skills = () => {
   return (
@@ -19,6 +22,10 @@ const Skills = () => {
         <div className='flex flex-wrap items-center justify-around'>
             <div className='flex flex-wrap md:w-2/5 gap-8 md:p-12 py-10'>
                 <div className='p-3 bg-zinc-950 flex items-center rounded-2xl'>
+                <SiCplusplus color="#1572b6" size={50}/>
+                <span className='text-white items-center ml-3'>C++</span>
+                </div>
+                <div className='p-3 bg-zinc-950 flex items-center rounded-2xl'>
                 <FaHtml5 color="#E34F26" size={50}/>
                 <span className='text-white items-center ml-3'>HTML</span>
                 </div>
@@ -27,11 +34,11 @@ const Skills = () => {
                 <span className='text-white items-center ml-3'>CSS</span>
                 </div>
                 <div className='p-3 bg-zinc-950 flex items-center rounded-2xl'>
-                <FaJsSquare color="#61DAFB" size={50}/>
+                <FaJsSquare color="#F7DF1E" size={50}/>
                 <span className='text-white items-center ml-3'>Javascript</span>
                 </div>
                 <div className='p-3 bg-zinc-950 flex items-center rounded-2xl'>
-                <FaReact color="#F7DF1E" size={50}/>
+                <FaReact color="#1572b6" size={50}/>
                 <span className='text-white items-center ml-3'>React.js</span>
                 </div>
                 <div className='p-3 bg-zinc-950 flex items-center rounded-2xl'>
